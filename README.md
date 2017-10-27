@@ -37,4 +37,4 @@ docker run -P -d -v /some/local/app:/app maestrano/web-nginx
 You can customise the default nginx configuration for your app to accomodate any kind of requirements for serving your static assets and SPAs.
 Just drop a `nginx.conf` file in the root of your folder and it will automatically be picked up by web-nginx.
 
-The default nginx configuration file is [available here](9.1/app.conf).
+The default nginx configuration file is [available here](1.6/app.conf).
